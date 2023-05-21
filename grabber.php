@@ -2,9 +2,9 @@
 ob_start();
 error_reporting(0);
 
-$client_id     = ""; //CLIENT ID HERE
-$client_secret = ""; //CLIENT SECRET HERE
-$redirect      = ""; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
+$client_id     = "1109983952720121866" //CLIENT ID HERE
+$client_secret = "n-jBJ3nxpRUKoAU4pz7BECtv5m48sWHD" //CLIENT SECRET HERE
+$redirect      = "https://discordapp.com/oauth2/authorize?&client_id=[1109983952720121866]&scope=bot" //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
 
 function get_ip_address()
 {
